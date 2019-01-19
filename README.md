@@ -4,7 +4,7 @@
 
 To generate Makefile:
 
-````bash
+```bash
 mkdir build/
 cd build/
 cmake ..
