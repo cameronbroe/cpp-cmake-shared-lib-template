@@ -29,6 +29,12 @@ make
 ls -l lib/
 ```
 
+To run tests:
+
+```bash
+make test
+```
+
 ## License
 
 This project is licensed under the MIT license. A copy of this license is provided [in this repository](LICENSE).
