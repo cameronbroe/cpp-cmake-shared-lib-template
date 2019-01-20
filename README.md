@@ -1,5 +1,17 @@
 # Basic C++ CMake template for a shared lib
 
+## Project setup
+
+### Dependencies
+
+* Python >=3.5
+
+### Bootstrap
+
+```bash
+python3 bootstrap.py
+```
+
 ## Usage
 
 To generate Makefile:
