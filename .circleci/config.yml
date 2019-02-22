@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: Install dependencies
-          command: sudo apt-get install -yy build-essential python3
+          command: apt-get install -yy build-essential python3
       - run:
           name: Run CircleCI build script
           command: .circleci/build.sh
