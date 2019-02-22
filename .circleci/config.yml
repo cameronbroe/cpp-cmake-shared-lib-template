@@ -2,9 +2,12 @@ version: 2
 jobs:
   build:
     docker:
-      - image: debian:stretch
+      - image: ubuntu:bionic
     steps:
       - checkout
+      - run:
+          name: Install dependencies
+          command: sudo apt-get install -yy build-essential python3
       - run:
           name: Run CircleCI build script
           command: .circleci/build.sh
